@@ -91,6 +91,12 @@ h2 {
   list-style-type: none;
 }
 
+.active {
+  color: #222222;
+  padding: 2px;
+  border-bottom: 1px dotted #222222;
+}
+
   #nav ul li {
     font-size: 14px;
     font-weight: normal;
