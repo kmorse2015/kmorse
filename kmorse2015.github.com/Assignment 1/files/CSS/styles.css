@@ -1,25 +1,32 @@
 body {
+	width:100%;
 	border-top: 2px solid #9D8235;
 }
 
 /* header */
-
-#logo {
-	margin-bottom: 3%;
+.logo {
+	margin-bottom: 10px;
+	display: block;
+	margin: 0 auto;
+	margin-bottom:3%;
 	margin-top: 3%;
 }
+
+#logo {
+	margin-bottom: 10px;
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+}	
 
 
 ul {
 	list-style-type: none;
 	text-align: center;
-
-
 }
 
-li {
+.navigation li {
 	display: inline;
-
 }
 
 .active{
@@ -47,9 +54,8 @@ a:hover {
 	margin-bottom: 10px;
 	width: 100%;
 	display: block;
+	margin: 0 auto;
 }
-
-
 
 div p {
 	font-family: Georgia;
@@ -60,48 +66,49 @@ div p {
 
 .left {
 	float: left;
-	border-right: 1px solid #F0F0F0;
+	width: 460px;
+	text-align: center;
 }
 
 .right {
 	float: right;
 	text-align: center;
+	width:460px;
 	border-left: 1px solid #F0F0F0;
-}
-
-table {
-	text-align: center;
-	padding-top: 30px;
-}
-
-td {
-	margin: auto;
-	padding: 0 70px 20px 70px;
-}
-
-tr {
-	font-family: Georgia;
-	font-size: 16px;
-	font-style: italic;
-
-}
-
-strong {
-	font-family: Helvetica;
-	font-size:16px;
-	font-style: normal;
+	padding-left: 10px;
 }
 
 .menu
 	{
-		display: inline-block;
 		margin-bottom: 100px;
+		width: 940px;
+		margin: auto;
+		font-family: Helvetica;
+		font-size: 16px;
+		font-weight: bold;
 	}
 
+.price {
+	font-family: Georgia;
+	font-style: italic;
+	font-weight: normal;
+}
 
+.right_menu {
+	float: right;
+	padding: 0 10px 0 10px;
+}
+
+.left_menu {
+	float:left;
+}
+
+.menu li {
+	margin: 10px 0 10px 0;
+}
 .footer {
 	background-color:#F0F0F0;
-	
+	clear:both;
 }
 
 #foot_logo {
